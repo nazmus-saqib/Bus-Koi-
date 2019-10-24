@@ -1,0 +1,162 @@
+body{
+  font-family: "Bree Serif";
+  text-align: center;
+}
+hr{
+  width: 0.001px;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 ;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 15%;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.3rem;
+  font-family: "Montserrat-light";
+}
+.title-img{
+  transform: rotate(-25deg);
+  position: absolute;
+}
+
+/* Body */
+.container-fluid{
+  padding: 9% 25%;
+}
+#title{
+  background-color: #f5f5f5;
+  text-align: left;
+}
+.row{
+  position: relative;
+  margin-top:50px;
+}
+.first-heading{
+  font-family: 'Bree Serif', serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.top-downloads{
+  margin-top: 25%;
+  margin-right: 5%;
+}
+
+/* Features*/
+#features{
+  background-color: #52616b;
+  padding: 0.5% 7%;
+}
+.feature-box{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.feature-h3{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.feature{
+  color: #defcf9;
+  padding: 3%;
+}
+.icon{
+  color: #e23e57;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff0000;
+}
+/* Vlogs */
+#testimonials{
+  padding: 7% 15%;
+  background-color:#f5f5f5;
+}
+.testimonial-text{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 220px;
+  height: 220px;
+  border-radius: 80%;
+}
+.arrow{
+      bottom: auto;
+      top: 450px;
+}
+.prevNext{
+  background-color: #52616b;
+}
+
+/* Press */
+#press{
+  background-color:#f5f5f5;
+
+}
+.press-logo{
+  width: 15%;
+  margin:20px 20px;
+}
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+}
+.price-heading{
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  font-size: 3rem;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* <!-- About Us --> */
+#cta{
+   background-color: #52616b;
+   color: white;
+   padding: 2% 15%;
+}
+.cta-heading{
+ font-family: "Bree Serif";
+ font-size: 3.5rem;
+ /* line-height: 1.5; */
+ margin-bottom: 0px;
+}
+.download-bottom{
+ margin-top: 3%;
+ margin-right: 3%;
+ margin-bottom: 3%;
+}
+.bottom-icon{
+ margin:2% 2%;
+}
+.copyRight{
+ margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width:900px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-img {
+    position:static;
+    transform: rotate(0);
+  }
+  .arrow{
+    position: static;
+  }
+}

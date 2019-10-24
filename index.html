@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Bus Koi?</title>
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Ubuntu&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/97e38bd2c1.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Script -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+
+
+    <!-- Nav Bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Bus Koi?<span class="sr-only">(current)</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Bus Route
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://www.google.com/maps/place/Dhaka/@23.7782572,90.3665973,12.25z/data=!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.810332!4d90.4125181">Inside Dhaka</a>
+              <a class="dropdown-item" href="https://www.google.com/maps/place/Bangladesh/@23.890439,89.4817361,7.75z/data=!4m5!3m4!1s0x30adaaed80e18ba7:0xf2d28e0c4e1fc6b!8m2!3d23.684994!4d90.356331">Inter City</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Hire a Bus</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Vlogs</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="#cta">About Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" style="margin-right: 20px;" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+
+
+    <!-- Title -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="first-heading">Find your bus nearby.</h1>
+          <button type="button" class="btn btn-outline-success btn-lg top-downloads"><i class="fab fa-google-play"></i> Download</button>
+          <button type="button" class="btn btn-outline-dark btn-lg top-downloads"><i class="fab fa-apple"></i> Download</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-img" src="images/app.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row">
+      <div class="feature-box col-lg">
+        <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3 class="feature-h3">Easy to Use.</h3>
+        <p class="feature">Open & Search.</p>
+      </div>
+      <div class="feature-box col-lg">
+        <i class="icon fas fa-bullseye fa-4x"></i>
+        <h3 class="feature-h3">Nearby Buses.</h3>
+        <p class="feature">Put destination & see available buses nearby you.</p>
+      </div>
+      <div class="feature-box col-lg">
+        <i class="icon fas fa-heart fa-4x"></i>
+        <h3 class="feature-h3">Seat Vacancy.</h3>
+        <p class="feature">Select desired bus & see available seats.</p>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Vlogs -->
+
+  <section id="testimonials">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
+      <ol class="arrow carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">I no longer have to wait for bus. I've found the hottest solution. Yayy.</h2>
+          <img class="testimonial-image" src="images/saq.png" alt="profile">
+          <em>Nazmus Saqib, Dhaka</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">I no longer have to wait for bus. I've found the hottest solution. Yayy..</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, NY</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">I no longer have to wait for bus. I've found the hottest solution. Yayy. My MAMA is the Best 😎</h2>
+          <img class="testimonial-image" src="images/poltu.png" alt="lady-profile">
+          <em>Mr. Poltu , Dushtopur</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="prevNext carousel-control-prev-icon" aria-hidden="true"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="prevNext carousel-control-next-icon" aria-hidden="true"></span>
+
+      </a>
+    </div>
+  </section>
+  <hr>
+
+  <!-- Press -->
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+
+
+  </section>
+
+
+  <!-- Packages -->
+
+  <section id="pricing">
+
+    <h2 class="price-heading">A Plan for Everyone Needs</h2>
+    <p>Simple and affordable price plans for you.</p>
+
+    <div class="card-deck mb-3 text-center">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Shei</h3>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <p>Cover 2 selected Routes</p>
+                <p>Unlimited App Usage</p>
+              </ul>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-dark">Get Started</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Joss</h3>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$49 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <p>Cover Dhaka City Routes</p>
+              <p>Unlimited App Usage</p>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Get Started</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Osthirr</h3>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$99 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <p>Pirority Listing</p>
+              <p>Cover Inter City Routes</p>
+              <p>Unlimited App Usage</p>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-dark">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- About Us -->
+
+  <section id="cta">
+
+    <h3 class="cta-heading">Find the Nearby Bus Today.</h3>
+    <button type="button" class="btn btn-success btn-lg download-bottom"><i class="fab fa-google-play"></i> Download</button>
+    <button type="button" class="btn btn-dark btn-lg download-bottom "><i class="fab fa-apple"></i> Download</button>
+    <div class="footer">
+      <i class="bottom-icon fab fa-facebook-f"></i>
+      <i class="bottom-icon fab fa-twitter"></i>
+      <i class="bottom-icon fab fa-instagram"></i>
+      <i class="bottom-icon fas fa-envelope"></i>
+      <p class="copyRight">© Copyright 2019 buskoi?</p>
+    </div>
+
+
+  </section>
+
+</body>
+
+</html>
