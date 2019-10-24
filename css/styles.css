@@ -155,6 +155,7 @@ hr{
   .title-img {
     position:static;
     transform: rotate(0);
+    padding-top: 60px;
   }
   .arrow{
     position: static;
